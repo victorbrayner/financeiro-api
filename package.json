@@ -1,0 +1,31 @@
+{
+  "name": "financeiro-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorbrayner/financeiro-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorbrayner/financeiro-api/issues"
+  },
+  "homepage": "https://github.com/victorbrayner/financeiro-api#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
